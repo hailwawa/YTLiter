@@ -1,39 +1,5 @@
-# YouTube Plus (ex. YTLite)
-A flexible enhancer for YouTube on iOS, featuring over hundred customizable options.
-
-## Table of Contents
-- [Screenshots](#screenshots)
-- [Main Features](#main-features)
-- [FAQ](#faq)
-- [Reviews](#reviews)
-- [How to build a YouTube Plus app using GitHub Actions](#how-to-build-a-youtube-plus-app-using-github-actions)
-- [Supported YouTube Version](#supported-youtube-version)
-- [Tweak Integration Details](#tweak-integration-details)
-
-## Screenshots
-<table>
-   <tr>
-      <td><img src="Resources/scr1.jpg" alt="Screenshot 1" /></td>
-      <td><img src="Resources/scr2.jpg" alt="Screenshot 2" /></td>
-      <td><img src="Resources/scr3.jpg" alt="Screenshot 3" /></td>
-   </tr>
-</table>
-
-<details>
-  <summary>More screenshots</summary>
-  <table>
-    <tr>
-      <td><img src="Resources/scr4.jpg" alt="Screenshot 4" /></td>
-      <td><img src="Resources/scr5.jpg" alt="Screenshot 5" /></td>
-      <td><img src="Resources/scr6.jpg" alt="Screenshot 6" /></td>
-    </tr>
-    <tr>
-      <td><img src="Resources/scr7.jpg" alt="Screenshot 7" /></td>
-      <td><img src="Resources/scr8.jpg" alt="Screenshot 8" /></td>
-      <td><img src="Resources/scr9.jpg" alt="Screenshot 9" /></td>
-    </tr>
-  </table>
-</details>
+# YouTubeLiter
+A flexible enhancer for YouTube on iOS, featuring over hundred customizable options. Pre-built and ready to sideload!
 
 ## Main Features
 <li>Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures</li>
@@ -45,6 +11,33 @@ A flexible enhancer for YouTube on iOS, featuring over hundred customizable opti
 <li>And much, much more</li>
 <br>
 
+## How to Sideload the App
+1. Download the LocalDevVpn app on chosen device and iLoader for computer
+2. Connect your iPhone, iPad, or iPod touch to your computer via a USB cable. If you are prompted, trust the computer and enter your passcode.
+3. Open iloader.
+4. Sign in with your Apple Account. (It doesn't need to be the account associated with the device. Remember that it is case-sensitive!)
+5. Select your iPhone, iPad, or iPod touch.
+6. Select 'Install SideStore (Stable)'.
+7. Open the Settings app.
+8. Navigate to 'General', and then 'VPN & Device Management'.
+9. Under the "Developer App" section, select the option named after your Apple Account.
+10. Select "Trust [Apple Account name]", then select "Allow".
+11. Enter your passcode to confirm you want to trust the app.
+12. Navigate to 'Privacy and Security'.
+Scroll to the bottom, and turn on "Developer Mode". Your device will restart.
+13. Open LocalDevVPN and select 'Connect'.
+14. Open SideStore.
+15. Sign in to the Apple Account you used with iloader.
+16. Navigate to 'My Apps'.
+17. Tap the '7 DAYS' counter to the right of SideStore to manually refresh it and finish setting up SideStore. (7 represents the number of days until an app's expiry. It will update dynamically to show the number of days left. Tap it to refresh the associated app.)
+18. If you receive a prompt asking to revoke or create a new signing certificate, tap 'Yes' or 'Refresh Now'.
+Alternatively you can use AltStore if you know how to use it
+19. After Sidestore is set up open it and tap the plus button.
+20. Choose the .ipa file you can download from here
+21. Make sure you are connected to wifi and localdevvpn is connected then refresh the app
+22. Now wait for it to sign and install
+23. Delete your old youtube app and sign into the new one!
+Note that you can repeat step 19 with other unnoficial apps such as Dolphin Emulator and Amethyst iOS Minecraft Java Edition
 
 **YouTube Plus preferences can be found in the YouTube Settings**
 
@@ -56,57 +49,6 @@ A flexible enhancer for YouTube on iOS, featuring over hundred customizable opti
 - [🇷🇺 ЧаВо на Русском](FAQs/FAQ_RU.md)
 - [🇮🇹 FAQ in Italiano](FAQs/FAQ_IT.md)
 - [🇵🇱 FAQ po polsku](FAQs/FAQ_PL.md)
-
-## Reviews
-Review by [@qbap](https://github.com/qbap) on ONE Jailbreak: https://onejailbreak.com/blog/youtube-plus/
-
-## How to build a YouTube Plus app using Github actions
-> [!NOTE]
-> If this your first time, complete following steps before starting:
->
-> 1. Fork this repository using the fork button on the top right
-> 2. On your forked repository, go to **Repository Settings** > **Actions**, enable **Read and Write** permissions.
-
-<details>
-  <summary>How to build the YouTube Plus app</summary>
-  <ol>
-    <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
-    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>Create YouTube Plus app</strong>.</li>
-    <li>Click the <strong>Run workflow</strong> button located on the right side.</li>
-    <li>Mark or unmark the tweaks you want to integrate. Learn more about them in the <a href="#tweak-integration-details">Tweak Integration Details</a> section.</li>
-    <li>Prepare a decrypted .ipa file <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox is recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
-    <li><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
-    <li>Enter the tweak version from the releases (the latest release is selected by default). You can also change the BundleID and Display Name if desired.</li>
-    <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
-    <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
-  </ol>
-</details>
-
-
-<details>
-  <summary>How to build the YouTube Plus app with your own link for the YouTube Plus tweak</summary>
-  <ol>
-    <blockquote>
-      <p><strong>NOTE:</strong> This option is primarily intended for building the YouTube Plus app based on the beta file you have. In other cases, it is generally not needed.</p>
-    </blockquote>
-    <li>Click on <strong>Sync fork</strong>, and if your branch is out-of-date, click on <strong>Update branch</strong>.</li>
-    <li>Navigate to the <strong>Actions tab</strong> in your forked repository and select <strong>[BETA] Build YouTube Plus app</strong>.</li>
-    <li>Click the <strong>Run workflow</strong> button located on the right side.</li>
-    <li>Mark or unmark the tweaks you want to integrate. Learn more about them in the <a href="#tweak-integration-details">Tweak Integration Details</a> section.</li>
-    <li>Prepare a decrypted .ipa file <em>(we cannot provide this due to legal reasons)</em>, then upload it to a file provider (e.g., filebin.net, filemail.com, or Dropbox is recommended). Paste the URL of the decrypted IPA file in the provided field.</li>
-    <li>Upload your beta tweak file to a file provider and paste direct link to the <strong>URL to the YouTube Plus tweak file</strong> field. You can also change the BundleID and Display Name if desired.</li>
-    <li><strong>NOTE:</strong> Make sure to provide a direct download link to the file, not a link to a webpage. Otherwise, the process will fail.</li>
-    <li>Make sure all inputs are correct, then click <strong>Run workflow</strong> to start the process.</li>
-    <li>Wait for the build to finish. You can download the YouTube Plus app from the releases section of your forked repo. (If you can't find the releases section, go to your forked repo and add /releases to the URL, i.e., github.com/user/YTLite/releases.)</li>
-  </ol>
-</details>
-
-## Supported YouTube Version
-<ul>
-   <li><strong>Latest confirmed:</strong> <em>20.42.3</em></li>
-   <li><strong>Date tested:</strong> <em>Nov 5, 2025</em></li>
-   <li><strong>YouTube Plus:</strong> <em>5.2 beta 4</em></li>
-</ul>
 
 ## Tweak Integration Details
 <details>
