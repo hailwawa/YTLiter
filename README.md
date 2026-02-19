@@ -33,7 +33,7 @@ Scroll to the bottom, and turn on "Developer Mode". Your device will restart.
 18. If you receive a prompt asking to revoke or create a new signing certificate, tap 'Yes' or 'Refresh Now'.
 Alternatively you can use AltStore if you know how to use it
 19. After Sidestore is set up open it and tap the plus button.
-20. Choose the .ipa file you can download from here
+20. Choose the .ipa file you can download from here (scroll down or click the releases tab)
 21. Make sure you are connected to wifi and localdevvpn is connected then refresh the app
 22. Now wait for it to sign and install
 23. Delete your old youtube app and sign into the new one!
