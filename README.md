@@ -1,10 +1,15 @@
 # YouTubeLiter
-A flexible enhancer for YouTube on iOS, featuring over hundred customizable options. Pre-built and ready to sideload!
+A flexible enhancer for YouTube on iOS, featuring over hundred customizable options. Pre-built and ready to sideload! Please don't sue me YouTube
+
+# Why not just download from Dayanch96?
+Dan doesn't actually have the full modded app and doesn't have the latest YouTube version, (YouTube would sue him or smth) so I prebuilt it for you so you don't have to do it yourself! :D
 
 ## Main Features
-<li>Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures</li>
+<li>Get rid of the fking ads with fake Premium! </li>
+<li>The legendary Return Dislikes extension so you can see the hate!</li>
+<li>Download videos with configurable quality, audio (including audio track selection), thumbnails, posts, and profile pictures</li>
 <li>Copy video, comment, and post information</li>
-<li>Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode</li>
+<li>Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and use Shorts-only mode or get rid of Shorts entirely</li>
 <li>Player settings: Gestures, default quality, preferred audio track</li>
 <li>Save, Load and Restore settings. Clear cache once or automatically on app startup</li>
 <li>Built-in SponsorBlock</li>
@@ -12,12 +17,12 @@ A flexible enhancer for YouTube on iOS, featuring over hundred customizable opti
 <br>
 
 ## How to Sideload the App
-1. Download the LocalDevVpn app on chosen device and iLoader for computer
-2. Connect your iPhone, iPad, or iPod touch to your computer via a USB cable. If you are prompted, trust the computer and enter your passcode.
+1. Download the LocalDevVpn app from the App Store on chosen device and iLoader (sideloading tool) on computer
+2. Connect your iPhone, iPad, or iPod touch to your computer via a USB cable. If you are prompted, trust the computer and enter your passcode. If phone isnt being detected then download the Apple Devices app for better compatibility
 3. Open iloader.
-4. Sign in with your Apple Account. (It doesn't need to be the account associated with the device. Remember that it is case-sensitive!)
-5. Select your iPhone, iPad, or iPod touch.
-6. Select 'Install SideStore (Stable)'.
+4. Sign in with your Apple Account. (It doesn't need to be the account associated with the device so use an alternate account if you don't trust iLoader. Remember that it is case-sensitive!)
+5. Select your device from the menu.
+6. Select 'Install SideStore (Stable)' or get the Livecontainer release if you know what you're doing. Wait for it to download and install
 7. Open the Settings app.
 8. Navigate to 'General', and then 'VPN & Device Management'.
 9. Under the "Developer App" section, select the option named after your Apple Account.
@@ -37,7 +42,7 @@ Alternatively you can use AltStore if you know how to use it
 21. Make sure you are connected to wifi and localdevvpn is connected then refresh the app
 22. Now wait for it to sign and install
 23. Delete your old youtube app and sign into the new one!
-Note that you can repeat step 19 with other unnoficial apps such as Dolphin Emulator and Amethyst iOS Minecraft Java Edition
+Note that you can repeat step 19 with other unnoficial apps such as Dolphin Emulator and Amethyst iOS Minecraft Java Edition. Repeat thr process of connecting to wifi and the vpn to refresh SideStore before it expires expire so you don't have to reinstall it
 
 **YouTube Plus preferences can be found in the YouTube Settings**
 
