@@ -42,7 +42,7 @@ Alternatively you can use AltStore if you know how to use it
 21. Make sure you are connected to wifi and localdevvpn is connected then refresh the app
 22. Now wait for it to sign and install
 23. Delete your old youtube app and sign into the new one!
-Note that you can repeat step 19 with other unnoficial apps such as Dolphin Emulator and Amethyst iOS Minecraft Java Edition. Repeat thr process of connecting to wifi and the vpn to refresh SideStore before it expires expire so you don't have to reinstall it
+Note that you can repeat step 19 with other unnoficial apps such as Dolphin Emulator and Amethyst Minecraft Java Edition. Repeat the process of connecting to wifi and the vpn to refresh SideStore before it expires expire so you don't have to reinstall it
 
 **YouTube Plus preferences can be found in the YouTube Settings**
 
